@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+dunst &
+unity-settings-daemon &
+dwm_status_loop &
+dropbox start &
+exec dwm

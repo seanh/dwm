@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+# The XF86XK_Tools key on my keyboard actually has a music icon on it.
+dwm_audio_media 

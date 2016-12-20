@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+google-chrome 'https://www.fastmail.com'

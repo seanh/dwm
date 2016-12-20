@@ -1,0 +1,2 @@
+#!/bin/sh
+cat ~/.dmenu-path | dmenu -b -f -l 50 -fn "Terminus:size=10" "$@" | ${SHELL:-"/bin/sh"} &

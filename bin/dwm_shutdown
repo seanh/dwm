@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+eval 'gnome-terminal -x sudo -p "Enter password to shut down the computer: " shutdown -P now'

@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+xsetroot -name "`dwm_dropbox_status` | `dwm_volume` | `date +'%H:%M %a %e %b'`"
