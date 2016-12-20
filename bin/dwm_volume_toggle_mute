@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+pactl set-sink-mute 0 toggle
+dwm_status

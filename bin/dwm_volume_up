@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+pactl set-sink-mute 0 false
+pactl set-sink-volume 0 +2%
+dwm_status

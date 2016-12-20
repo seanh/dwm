@@ -1,0 +1,4 @@
+dwm
+dwm.o
+drw.o
+util.o

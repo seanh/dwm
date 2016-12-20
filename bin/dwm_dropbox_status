@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+dropbox status 2> /dev/null || echo "Dropbox isn't installed"

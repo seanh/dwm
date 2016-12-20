@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+while true; do dwm_status; sleep 60; done
