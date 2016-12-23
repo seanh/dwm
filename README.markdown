@@ -119,7 +119,7 @@ Features
 Installation
 ------------
 
-These instructions have been tested on Ubuntu 14.04.2.
+These instructions have been tested on Ubuntu 16.04.1.
 
 
 ### Enable Software Sources
