@@ -134,7 +134,7 @@ Software Center, for example. Or edit your `/etc/apt/sources.list` file.
 This installs the packages that are needed to compile dwm from source and the
 fonts and helper programs that are used with dwm:
 
-    sudo apt-get install git dmenu dunst xfonts-terminus
+    sudo apt-get install git dmenu dunst xfonts-terminus libxft-dev
     sudo apt-get build-dep dwm
 
 
@@ -180,66 +180,66 @@ should be working :)
 Keyboard Shortcuts
 ------------------
 
-- <kbd>Right Super</kbd> launch the custom dmenu.
+<kbd>Right Super</kbd> launch the custom dmenu.
 
-  To add items to this menu add commands to `~/.dmenu-path`, one command per
-  line.
+To add items to this menu add commands to `~/.dmenu-path`, one command per
+line.
 
-  This can also be launched with <kbd>Left Super+o</kbd> (the key next to the
-  default dmenu keyboard shortcut) because not all keyboards have a
-  <kbd>Right Super</kbd> key.
+This can also be launched with <kbd>Left Super+o</kbd> (the key next to the
+default dmenu keyboard shortcut) because not all keyboards have a
+<kbd>Right Super</kbd> key.
 
-- <kbd>Left Super+p</kbd> launch the default dmenu
+<kbd>Left Super+p</kbd> launch the default dmenu
 
-- <kbd>F1-F12</kbd> go to tag 1-12
+<kbd>F1-F12</kbd> go to tag 1-12
 
-- <kbd>Alt+F1-F12</kbd> toggle tag 1-12 into/out of view
+<kbd>Alt+F1-F12</kbd> toggle tag 1-12 into/out of view
 
-- <kbd>Left Super+F1-F12</kbd> move the focused window to tag 1-12
+<kbd>Left Super+F1-F12</kbd> move the focused window to tag 1-12
 
-- <kbd>Left Super+Alt+F1-F12</kbd> toggle tag 1-12 onto/off of the focused window
+<kbd>Left Super+Alt+F1-F12</kbd> toggle tag 1-12 onto/off of the focused window
 
-- <kbd>Left Super+b</kbd> hide/show dwm's status bar
+<kbd>Left Super+b</kbd> hide/show dwm's status bar
 
-- <kbd>Left Super+t</kbd> change to tiled layout
+<kbd>Left Super+t</kbd> change to tiled layout
 
-- <kbd>Left Super+f</kbd> change to floating layout
+<kbd>Left Super+f</kbd> change to floating layout
 
-- <kbd>Left Super+m</kbd> change to monocle layout
+<kbd>Left Super+m</kbd> change to monocle layout
 
-- <kbd>Left Super+Space</kbd> toggle between the current and previous layout
+<kbd>Left Super+Space</kbd> toggle between the current and previous layout
 
-- <kbd>Left Super+Shift+Space</kbd> toggle the focused window into and out of
-  floating mode
+<kbd>Left Super+Shift+Space</kbd> toggle the focused window into and out of
+floating mode
 
-- <kbd>Left Super+n</kbd> run the [dwm_terminal](bin/dwm_terminal) script
-  (by default: launches gnome-terminal).
+<kbd>Left Super+n</kbd> run the [dwm_terminal](bin/dwm_terminal) script
+(by default: launches gnome-terminal).
 
-- <kbd>Left Super+Shift+Enter</kbd> launch dwm's default terminal
-  (`st`, note that you need to install st separately for this to work)
+<kbd>Left Super+Shift+Enter</kbd> launch dwm's default terminal
+(`st`, note that you need to install st separately for this to work)
 
-- <kbd>Left Super+j</kbd> and <kbd>Left Super+k</kbd> move the focus to the
-  next/prev window
+<kbd>Left Super+j</kbd> and <kbd>Left Super+k</kbd> move the focus to the
+next/prev window
 
-- <kbd>Left Super+i</kbd> and <kbd>Left Super+d</kbd> increment and decrement
-  the number of windows in the  master area
+<kbd>Left Super+i</kbd> and <kbd>Left Super+d</kbd> increment and decrement
+the number of windows in the  master area
 
-- <kbd>Left Super+h</kbd> and <kbd>Left Super+l</kbd> increase and decrease the
-  width of the master area
+<kbd>Left Super+h</kbd> and <kbd>Left Super+l</kbd> increase and decrease the
+width of the master area
 
-- <kbd>Left Super+Enter</kbd> move the focused window into or out of the master
-  area
+<kbd>Left Super+Enter</kbd> move the focused window into or out of the master
+area
 
-- <kbd>Left Super+Tab</kbd> toggle between the current and previous views
+<kbd>Left Super+Tab</kbd> toggle between the current and previous views
 
-- <kbd>Left Super+Shift+c</kbd> close the focused window
+<kbd>Left Super+Shift+c</kbd> close the focused window
 
-- <kbd>Left Super+Shift+q</kbd> quit dwm (logout)
+<kbd>Left Super+Shift+q</kbd> quit dwm (logout)
 
-- <kbd>Left Super+,</kbd> focus the previous screen
+<kbd>Left Super+,</kbd> focus the previous screen
 
-- <kbd>Left Super+.</kbd> focus the next screen
+<kbd>Left Super+.</kbd> focus the next screen
 
-- <kbd>Left Super+Shift+,</kbd> send the focused window to the previous screen
+<kbd>Left Super+Shift+,</kbd> send the focused window to the previous screen
 
-- <kbd>Left Super+Shift+.</kbd> send the focused window to the next screen
+<kbd>Left Super+Shift+.</kbd> send the focused window to the next screen
