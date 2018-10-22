@@ -140,22 +140,22 @@ fonts and helper programs that are used with dwm:
 
 ### Install My dwm Fork
 
-    git clone 'https://github.com/seanh/dwm.git' ~/.dwm
-    cd ~/.dwm
+    git clone 'https://github.com/seanh/dwm.git' ~/Projects/dwm
+    cd ~/Projects/dwm
     sudo make clean install
 
 
 ### Link to the Dunst Config
 
     mkdir -p ~/.config
-    ln -s ~/.dwm/dunst ~/.config/dunst
+    ln -s ~/Projects/dwm/dunst ~/.config/dunst
 
 
 ### Add my dwm Executables to your PATH
 
-Add [~/.dwm/bin](bin) to your `PATH`:
+Add [~/Projects/dwm/bin](bin) to your `PATH`:
 
-    echo 'PATH="$HOME/.dwm/bin:$PATH"' >> ~/.profile
+    echo 'PATH="$HOME/Projects/dwm/bin:$PATH"' >> ~/.profile
 
 I do mean edit `~/.profile` and not your bash, zsh or whatever startup file.
 My scripts use `sh`.
@@ -163,12 +163,12 @@ My scripts use `sh`.
 
 ### Add the Desktop Entry Specification
 
-[~/.dwm/dwm.desktop](dwm.desktop) is a Desktop Entry Specification file,
+[~/Projects/dwm/dwm.desktop](dwm.desktop) is a Desktop Entry Specification file,
 it's a copy of the `/usr/share/xsessions/dwm.desktop` file that ships with
 the `dwm` Debian package. This is what adds the dwm option to your login
 screen. You need to make a symlink to it:
 
-    sudo ln -s ~/.dwm/dwm.desktop /usr/share/xsessions/dwm.desktop
+    sudo ln -s ~/Projects/dwm/dwm.desktop /usr/share/xsessions/dwm.desktop
 
 
 ### Login to dwm
